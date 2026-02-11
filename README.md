@@ -14,8 +14,6 @@ Include the neural network model diagram.
 
 ## DESIGN STEPS
 
-## DESIGN STEPS
-
 ### STEP 1:
 Import the necessary libraries such as NumPy, Matplotlib, and PyTorch.
 
