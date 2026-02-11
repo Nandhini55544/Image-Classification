@@ -14,18 +14,47 @@ Include the neural network model diagram.
 
 ## DESIGN STEPS
 
+## DESIGN STEPS
+
 ### STEP 1:
-Write your own steps
+Import the necessary libraries such as NumPy, Matplotlib, and PyTorch.
 
 ### STEP 2:
+Load and preprocess the dataset:
 
+Resize images to a fixed size (128×128).
+Normalize pixel values to a range between 0 and 1.
+Convert labels into numerical format if necessary.
 ### STEP 3:
+Define the CNN Architecture, which includes:
+
+Input Layer: Shape (8,128,128)
+Convolutional Layer 1: 8 filters, kernel size (16×16), ReLU activation
+Max-Pooling Layer 1: Pool size (2×2)
+Convolutional Layer 2: 24 filters, kernel size (8×8), ReLU activation
+Max-Pooling Layer 2: Pool size (2×2)
+Fully Connected (Dense) Layer:
+First Dense Layer with 256 neurons
+Second Dense Layer with 128 neurons
+Output Layer for classification
+### STEP 4:
+Define the loss function (e.g., Cross-Entropy Loss for classification) and optimizer (e.g., Adam or SGD).
+
+### STEP 5:
+Train the model by passing training data through the network, calculating the loss, and updating the weights using backpropagation.
+
+### STEP 6:
+Evaluate the trained model on the test dataset using accuracy, confusion matrix, and other performance metrics.
+
+### STEP 7:
+Make predictions on new images and analyze the results.
 
 
 ## PROGRAM
 
-### Name:
-### Register Number:
+### Name: Nandhini M
+### Register Number: 212224040211
+
 ```
 import torch
 import torch.nn as nn
